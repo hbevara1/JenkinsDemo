@@ -127,6 +127,6 @@
     </Sequence>
     <ui:OutputDataTable DataTable="[ExtractDataTable]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[Str_ExtractDatatable]" />
     <ui:WriteTextFile DisplayName="Writing the data into a text file" FileName="C:\Users\miracle\Desktop\CurrencyDetails.txt" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[Str_ExtractDatatable]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Integrating jenkins with UIPath studio&quot;]" TopMost="True" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Integrating jenkins&quot;]" TopMost="True" />
   </Sequence>
 </Activity>
